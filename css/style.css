@@ -1,0 +1,15 @@
+*{margin: 0;
+    padding: 0;
+
+}
+
+.logo{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    width: 100px;
+}
+.logo img{
+    width: 50%;
+    height: 10%;
+}
