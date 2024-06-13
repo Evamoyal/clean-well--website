@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;
 }
 
+/* styling a header */
 .headbg {
     height: 100vh;
     width: 100%;
@@ -12,7 +13,7 @@ body {
     background-size: cover;
     background-position: center;
     font-family: 'Times New Roman', Times, serif;
-    background: linear-gradient(rgba(0, 0, 0, 0.315), rgba(0, 0, 0, 0.709)),
+    background: linear-gradient(rgba(0, 0, 0, 0.315), rgba(0, 0, 0, 0.805)),
     url("../images/header-\ 1.jpg");
     
 }
@@ -96,10 +97,11 @@ nav ul li a:hover {
     font-size: 85px;
     margin-bottom: 20px;
     color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 span {
-    color: red;
+    color: rgb(255, 136, 0);
 
 }
 
@@ -137,8 +139,12 @@ span {
 
 .pic img {
     width: 45%;
+    /* margin-top: 2rem; */
 }
 
+.picture{
+    margin-top: 10rem;
+}
 h4 {
     color: rgba(255, 94, 0, 0.904);
 
@@ -205,12 +211,25 @@ h2 {
     border: none;
     border-radius: 2rem;
     padding: 1rem;
-    color: red;
+    color:orange;
     
 }
 .wws-text{
     font-size: 14pt;
+    
 }
 #storebtn{
     margin-top: 8%;
+}
+
+.wws h4{
+    font-size: 14pt;
+}
+
+.wws p{
+    font-size: 14pt;
+}
+
+.store a{
+    color: orange;
 }
