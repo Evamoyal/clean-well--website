@@ -126,17 +126,18 @@ span {
     font-size: 14pt;
 }
 
-#readtext{
-    text-decoration: none;
-    color: white;
-    border-radius: 4rem;
-    color: white;
-    padding-bottom:0 ;
-    padding-top:0;
-
+.readtext{
+    
+    border-radius: 50%;
+    padding: 12px 24px;
+    
 }
 
-
+.readtext a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
 .pic img {
     width: 45%;
     /* margin-top: 2rem; */
@@ -153,6 +154,7 @@ h4 {
 h2 {
     font-size: 50px;
 }
+
 
 .abt-text button {
     background-color: rgba(255, 94, 0, 0.904);
@@ -218,9 +220,7 @@ h2 {
     font-size: 14pt;
     
 }
-#storebtn{
-    margin-top: 8%;
-}
+
 
 .wws h4{
     font-size: 14pt;
@@ -232,4 +232,87 @@ h2 {
 
 .store a{
     color: orange;
+}
+
+#map-section {
+    text-align: center;
+    margin: 20px 0;
+    margin-bottom: 10rem;
+}
+
+.map-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #f0f0f0;
+   
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+.subscribe-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.subscribe-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.subscribe-container h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.subscribe-container p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.subscribe-form input[type="email"] {
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    width: 70%;
+    max-width: 300px;
+}
+
+.subscribe-form button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+}
+
+.subscribe-form button:hover {
+    background-color: #777;
 }
